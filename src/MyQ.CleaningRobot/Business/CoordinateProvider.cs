@@ -88,7 +88,7 @@ public class CoordinateProvider(ICardinalDirectionRotator cardinalDirectionRotat
 
         var newCellType = GetCellType(map, x, y);
 
-        if (newCellType == null)
+        if (newCellType == null || newCellType == CellType.CantBeOccupiedOrCleaned)
         {
             return currentPosition;
         }

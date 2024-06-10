@@ -21,7 +21,7 @@ public static class InputFileExtensions
             Map = MapHelper.CreateMapDto(inputFile.Map),
             Start = inputFile.Start.ToDto(),
             Commands = inputFile.Commands.Select(CommandHelper.CreateCommandDto),
-            Battery = 80
+            Battery = inputFile.Battery
         };
     }
 }
