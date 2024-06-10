@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MyQ.CleaningRobot": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\repos\\MyQ.CleaningRobot\\assignment\\test1.json \r\nC:\\repos\\MyQ.CleaningRobot\\assignment\\output.json"
+    }
+  }
+}

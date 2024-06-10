@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyQ.CleaningRobot", "src\MyQ.CleaningRobot\MyQ.CleaningRobot.csproj", "{B1F14A6C-E61F-4B3F-A175-3865962BA206}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3D47B937-76AF-4AD6-9424-9168028CAFA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyQ.CleaningRobot.UnitTests", "src\MyQ.CleaningRobot.UnitTests\MyQ.CleaningRobot.UnitTests.csproj", "{756C5BB9-CDB2-4D41-9002-C2F4A5793C44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1F14A6C-E61F-4B3F-A175-3865962BA206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F14A6C-E61F-4B3F-A175-3865962BA206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F14A6C-E61F-4B3F-A175-3865962BA206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F14A6C-E61F-4B3F-A175-3865962BA206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756C5BB9-CDB2-4D41-9002-C2F4A5793C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756C5BB9-CDB2-4D41-9002-C2F4A5793C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756C5BB9-CDB2-4D41-9002-C2F4A5793C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756C5BB9-CDB2-4D41-9002-C2F4A5793C44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{756C5BB9-CDB2-4D41-9002-C2F4A5793C44} = {3D47B937-76AF-4AD6-9424-9168028CAFA7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19D2C059-F0E4-4265-8F24-14AFB1AC46E0}
+	EndGlobalSection
+EndGlobal
